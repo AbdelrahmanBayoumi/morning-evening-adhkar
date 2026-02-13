@@ -12,7 +12,7 @@ const Footer = () => {
       <p className="mb-2">
         {isAr
           ? "قاعدة بيانات مفتوحة المصدر لأذكار الصباح والمساء"
-          : "An open-source database for Morning and Evening Adhkar."}
+          : "An open-source database for Morning & Evening Adhkar."}
       </p>
       <a
         href="https://github.com/Seen-Arabic/Morning-And-Evening-Adhkar-DB"

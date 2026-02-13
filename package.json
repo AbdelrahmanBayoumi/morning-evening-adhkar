@@ -1,7 +1,7 @@
 {
   "name": "morning-evening-adhkar",
   "version": "0.1.0",
-  "description": "A progressive web app for Morning and Evening Adhkar built with Next.js, tailored for the Muslim community.",
+  "description": "A progressive web app for Morning & Evening Adhkar built with Next.js, tailored for the Muslim community.",
   "private": false,
   "keywords": [
     "adhkar",

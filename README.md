@@ -5,7 +5,7 @@
 </div>
 
 <h1 align=center> 📚 Morning & Evening Adhkar </h1>
-<p align=center><strong>Morning and Evening Adhkar PWA</strong></p>
+<p align=center><strong>Morning & Evening Adhkar PWA</strong></p>
 
 <div align=center>
     <!-- Replace with actual project screenshot if available -->
@@ -13,7 +13,7 @@
 </div>
 
 <p align=center><strong>
-Adhkar is a Progressive Web Application (PWA) built with Next.js that provides a digital interface for reading Morning and Evening Adhkar. It is designed to be fast, offline-capable, and user-friendly, helping Muslims maintain their daily remembrance of Allah.
+Adhkar is a Progressive Web Application (PWA) built with Next.js that provides a digital interface for reading Morning & Evening Adhkar. It is designed to be fast, offline-capable, and user-friendly, helping Muslims maintain their daily remembrance of Allah.
 </strong></p><br>
 
 ✨ Only by the remembrance of Allah do hearts find rest.

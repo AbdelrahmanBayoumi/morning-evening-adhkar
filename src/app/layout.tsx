@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Adhkar",
   },
   description:
-    "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
+    "Morning & Evening Adhkar PWA - Your daily guide for remembrance",
   applicationName: "Morning & Evening Adhkar",
   manifest: "/manifest.json",
   keywords: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: "/",
     title: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     description:
-      "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
+      "Morning & Evening Adhkar PWA - Your daily guide for remembrance",
     siteName: "Morning & Evening Adhkar",
     images: [
       {
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     description:
-      "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
+      "Morning & Evening Adhkar PWA - Your daily guide for remembrance",
     images: ["/images/og-image.jpg"],
   },
   icons: {
@@ -89,7 +89,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Morning & Evening Adhkar",
-  alternateName: "Rafiq Al-Adhkar",
+  alternateName: "أذكار الصباح والمساء",
   url: "https://morning-evening-adhkar.web.app/",
   sameAs: "https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar",
 };
