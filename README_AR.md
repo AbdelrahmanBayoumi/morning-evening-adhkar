@@ -8,7 +8,7 @@
 <p align=center><strong>تطبيق أذكار الصباح والمساء</strong></p>
 
 <div align=center>
-    <img src="https://github.com/Seen-Arabic/Morning-And-Evening-Adhkar-DB/assets/48678280/4370c84c-f189-44a1-8537-a28b804adea8" alt="Adhkar Image" width="400">
+    <img src="public/images/og-image.jpg" alt="Adhkar Image" width="400">
 </div>
 
 <p align=center><strong>
