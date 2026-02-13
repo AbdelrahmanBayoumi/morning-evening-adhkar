@@ -75,12 +75,12 @@ const Index = () => {
   const completed = items.filter((i) => getRemaining(i) <= 0).length;
 
   return (
-    <div className="flex min-h-screen flex-col bg-background font-body">
+    <div className="bg-background font-body flex min-h-screen flex-col">
       <Header />
 
       <main className="mx-auto max-w-2xl flex-1 px-4 py-6">
         <Tabs value={tab} onValueChange={(v) => setTab(v as TabType)}>
-          <div className="sticky top-[57px] z-40 -mx-4 bg-background/90 px-4 pb-3 pt-1 backdrop-blur-md">
+          <div className="bg-background/90 sticky top-[57px] z-40 -mx-4 px-4 pt-1 pb-3 backdrop-blur-md">
             <TabsList className="mb-3 grid w-full grid-cols-2">
               <TabsTrigger value="morning" className="font-heading">
                 {isAr ? "☀️ أذكار الصباح" : "☀️ Morning"}

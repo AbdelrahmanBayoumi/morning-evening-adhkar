@@ -8,7 +8,7 @@ const Footer = () => {
   const isAr = language === "ar";
 
   return (
-    <footer className="border-t border-border bg-card/60 py-6 text-center text-sm text-muted-foreground">
+    <footer className="border-border bg-card/60 text-muted-foreground border-t py-6 text-center text-sm">
       <p className="mb-2">
         {isAr
           ? "قاعدة بيانات مفتوحة المصدر لأذكار الصباح والمساء"
@@ -18,7 +18,7 @@ const Footer = () => {
         href="https://github.com/Seen-Arabic/Morning-And-Evening-Adhkar-DB"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 text-primary hover:underline"
+        className="text-primary inline-flex items-center gap-1 hover:underline"
       >
         <Github className="h-4 w-4" />
         {isAr ? "مستودع جيتهاب" : "GitHub Repository"}

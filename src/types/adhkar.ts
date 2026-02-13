@@ -13,6 +13,6 @@ export interface AdhkarItem {
   explanation_of_hadith_vocabulary: string;
 }
 
-export type Language = 'ar' | 'en';
-export type Theme = 'light' | 'dark';
-export type TabType = 'morning' | 'evening';
+export type Language = "ar" | "en";
+export type Theme = "light" | "dark";
+export type TabType = "morning" | "evening";

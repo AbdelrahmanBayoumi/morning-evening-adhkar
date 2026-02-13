@@ -9,9 +9,9 @@ const Header = () => {
   const isAr = language === "ar";
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-card/80 backdrop-blur-md">
+    <header className="border-border bg-card/80 sticky top-0 z-50 border-b backdrop-blur-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <h1 className="font-heading text-lg font-bold text-primary md:text-xl">
+        <h1 className="font-heading text-primary text-lg font-bold md:text-xl">
           {isAr ? "أذكار الصباح والمساء" : "Morning & Evening Adhkar"}
         </h1>
         <div className="flex items-center gap-2">

@@ -14,15 +14,15 @@ const ProgressBar = ({ completed, total }: Props) => {
 
   return (
     <div className="mb-4">
-      <div className="mb-1 flex items-center justify-between text-sm text-muted-foreground">
+      <div className="text-muted-foreground mb-1 flex items-center justify-between text-sm">
         <span>{isAr ? "التقدم" : "Progress"}</span>
         <span>
           {completed}/{total} ({pct}%)
         </span>
       </div>
-      <div className="h-2 w-full overflow-hidden rounded-full bg-secondary">
+      <div className="bg-secondary h-2 w-full overflow-hidden rounded-full">
         <div
-          className="h-full rounded-full bg-primary transition-all duration-500"
+          className="bg-primary h-full rounded-full transition-all duration-500"
           style={{ width: `${pct}%` }}
         />
       </div>
