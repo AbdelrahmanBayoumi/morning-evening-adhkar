@@ -2,6 +2,7 @@
   "name": "أذكار الصباح والمساء - Morning & Evening Adhkar",
   "short_name": "Adhkar",
   "description": "Morning and Evening Adhkar PWA",
+  "id": "/",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -11,43 +12,81 @@
       "src": "/images/android-icon-36x36.png",
       "type": "image/png",
       "sizes": "36x36",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/android-icon-48x48.png",
       "type": "image/png",
       "sizes": "48x48",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/android-icon-72x72.png",
       "type": "image/png",
       "sizes": "72x72",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/android-icon-96x96.png",
       "type": "image/png",
       "sizes": "96x96",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/android-icon-144x144.png",
       "type": "image/png",
       "sizes": "144x144",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/android-icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/ms-icon-310x310.png",
       "type": "image/png",
       "sizes": "310x310",
-      "purpose": "any maskable"
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-iphone-1.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-iphone-2.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-iphone-3.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-desktop-1.png",
+      "sizes": "1024x896",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/screenshot-desktop-2.png",
+      "sizes": "1024x896",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/screenshot-desktop-3.png",
+      "sizes": "1024x896",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ]
 }
