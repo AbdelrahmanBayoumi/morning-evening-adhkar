@@ -1,7 +1,33 @@
 {
   "name": "morning-evening-adhkar",
   "version": "0.1.0",
-  "private": true,
+  "description": "A progressive web app for Morning and Evening Adhkar built with Next.js, tailored for the Muslim community.",
+  "private": false,
+  "keywords": [
+    "adhkar",
+    "morning-adhkar",
+    "evening-adhkar",
+    "islamic-app",
+    "muslim",
+    "pwa",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss"
+  ],
+  "homepage": "https://morning-evening-adhkar.web.app",
+  "bugs": {
+    "url": "https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Abdelrahman Bayoumi",
+    "url": "https://abdelrahmanbayoumi.github.io/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

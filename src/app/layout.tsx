@@ -3,7 +3,7 @@ import "./globals.css";
 import { AppProvider } from "@/contexts/AppContext";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://adhkar.vercel.app"),
+  metadataBase: new URL("https://morning-evening-adhkar.web.app"),
   title: {
     default: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     template: "%s | Adhkar",
@@ -23,9 +23,14 @@ export const metadata: Metadata = {
     "أذكار الصباح",
     "أذكار المساء",
   ],
-  authors: [{ name: "Seen", url: "https://seen.org" }],
-  creator: "Seen",
-  publisher: "Seen",
+  authors: [
+    {
+      name: "Abdelrahman Bayoumi",
+      url: "https://abdelrahmanbayoumi.github.io/",
+    },
+  ],
+  creator: "Abdelrahman Bayoumi",
+  publisher: "Abdelrahman Bayoumi",
   openGraph: {
     type: "website",
     locale: "ar_SA",
@@ -48,8 +53,6 @@ export const metadata: Metadata = {
     title: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     description:
       "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
-    site: "@seen_arabic",
-    creator: "@seen_arabic",
     images: ["/images/og-image.jpg"],
   },
   icons: {
@@ -85,18 +88,12 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Morning & Evening Adhkar",
-  url: "https://adhkar.vercel.app",
+  url: "https://morning-evening-adhkar.web.app/",
   author: {
-    "@type": "Organization",
-    name: "Seen",
-    url: "https://seen.org",
-    sameAs: [
-      "https://www.facebook.com/Seen.org/",
-      "https://t.me/seen_arabic",
-      "https://github.com/Seen-Arabic",
-      "https://twitter.com/seen_arabic",
-      "https://www.linkedin.com/company/seen-arabic",
-    ],
+    "@type": "Person",
+    name: "Abdelrahman Bayoumi",
+    url: "https://abdelrahmanbayoumi.github.io/",
+    sameAs: ["https://github.com/AbdelrahmanBayoumi"],
   },
 };
 

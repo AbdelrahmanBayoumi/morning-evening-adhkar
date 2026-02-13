@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://adhkar.vercel.app";
+  const baseUrl = "https://morning-evening-adhkar.web.app";
   return [
     {
       url: baseUrl,

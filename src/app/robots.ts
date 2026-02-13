@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://adhkar.vercel.app/sitemap.xml",
+    sitemap: "https://morning-evening-adhkar.web.app/sitemap.xml",
   };
 }
