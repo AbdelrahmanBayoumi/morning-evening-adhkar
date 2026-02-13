@@ -1,6 +1,6 @@
 <div align=center>
        <a href="/README_AR.md">
-        <img src="https://user-images.githubusercontent.com/48678280/174651387-5b23ab0a-792f-421b-a5bc-73f74e8f36b5.png" alt="Arabic Version">
+        <img src="https://user-images.githubusercontent.com/48678280/174657158-9bc1a1d3-8d9c-4162-8d5b-71cc5d4c1fc6.png" alt="Arabic Version">
        </a>
 </div>
 
