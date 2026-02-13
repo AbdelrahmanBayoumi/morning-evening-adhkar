@@ -4,7 +4,7 @@
        </a>
 </div>
 
-<h1 align=center> 📚 Adhkar Companion </h1>
+<h1 align=center> 📚 Morning & Evening Adhkar </h1>
 <p align=center><strong>Morning and Evening Adhkar PWA</strong></p>
 
 <div align=center>
@@ -13,7 +13,7 @@
 </div>
 
 <p align=center><strong>
-Adhkar Companion is a Progressive Web Application (PWA) built with Next.js that provides a digital interface for reading Morning and Evening Adhkar. It is designed to be fast, offline-capable, and user-friendly, helping Muslims maintain their daily remembrance of Allah.
+Adhkar is a Progressive Web Application (PWA) built with Next.js that provides a digital interface for reading Morning and Evening Adhkar. It is designed to be fast, offline-capable, and user-friendly, helping Muslims maintain their daily remembrance of Allah.
 </strong></p><br>
 
 ✨ Only by the remembrance of Allah do hearts find rest.
@@ -30,8 +30,8 @@ Adhkar Companion is a Progressive Web Application (PWA) built with Next.js that 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AbdelrahmanBayoumi/adhkar-companion.git
-   cd adhkar-companion/next-adhkar
+   git clone https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar.git
+   cd morning-evening-adhkar
    ```
 
 2. Install dependencies:

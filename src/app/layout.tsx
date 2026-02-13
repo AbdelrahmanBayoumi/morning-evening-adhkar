@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Adhkar",
   },
   description:
-    "Morning and Evening Adhkar PWA - Your daily companion for remembrance",
+    "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
   manifest: "/manifest.json",
   keywords: [
     "Adhkar",
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     url: "/",
     title: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     description:
-      "Morning and Evening Adhkar PWA - Your daily companion for remembrance",
-    siteName: "Adhkar Companion",
+      "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
+    siteName: "Morning & Evening Adhkar",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Adhkar Companion",
+        alt: "Morning & Evening Adhkar",
       },
     ],
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     description:
-      "Morning and Evening Adhkar PWA - Your daily companion for remembrance",
+      "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
     site: "@seen_arabic",
     creator: "@seen_arabic",
     images: ["/images/og-image.jpg"],
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Adhkar Companion",
+  name: "Morning & Evening Adhkar",
   url: "https://adhkar.vercel.app",
   author: {
     "@type": "Organization",

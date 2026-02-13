@@ -29,8 +29,8 @@
 1. استنسخ المستودع:
 
    ```bash
-   git clone https://github.com/AbdelrahmanBayoumi/adhkar-companion.git
-   cd adhkar-companion/next-adhkar
+   git clone https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar.git
+   cd morning-evening-adhkar
    ```
 
 2. قم بتثبيت التبعيات:
