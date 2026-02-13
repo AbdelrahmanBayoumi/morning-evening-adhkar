@@ -88,5 +88,12 @@
       "type": "image/png",
       "form_factor": "wide"
     }
-  ]
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+adhkar",
+      "url": "/?url=%s"
+    }
+  ],
+  "display_override": ["window-controls-overlay", "minimal-ui"]
 }
