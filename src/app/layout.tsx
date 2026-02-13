@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "Morning and Evening Adhkar PWA - Your daily guide for remembrance",
+  applicationName: "Morning & Evening Adhkar",
   manifest: "/manifest.json",
   keywords: [
     "Adhkar",
@@ -88,13 +89,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Morning & Evening Adhkar",
+  alternateName: "Rafiq Al-Adhkar",
   url: "https://morning-evening-adhkar.web.app/",
-  author: {
-    "@type": "Person",
-    name: "Abdelrahman Bayoumi",
-    url: "https://abdelrahmanbayoumi.github.io/",
-    sameAs: ["https://github.com/AbdelrahmanBayoumi"],
-  },
+  sameAs: "https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar",
 };
 
 export default function RootLayout({
