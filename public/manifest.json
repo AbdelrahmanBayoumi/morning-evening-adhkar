@@ -54,37 +54,37 @@
   "screenshots": [
     {
       "src": "/images/screenshot-iphone-1.png",
-      "sizes": "390x844",
+      "sizes": "1170x2532",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
       "src": "/images/screenshot-iphone-2.png",
-      "sizes": "390x844",
+      "sizes": "1170x2532",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
       "src": "/images/screenshot-iphone-3.png",
-      "sizes": "390x844",
+      "sizes": "1170x2532",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
       "src": "/images/screenshot-desktop-1.png",
-      "sizes": "1024x896",
+      "sizes": "2048x1792",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
       "src": "/images/screenshot-desktop-2.png",
-      "sizes": "1024x896",
+      "sizes": "2048x1792",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
       "src": "/images/screenshot-desktop-3.png",
-      "sizes": "1024x896",
+      "sizes": "2048x1792",
       "type": "image/png",
       "form_factor": "wide"
     }
