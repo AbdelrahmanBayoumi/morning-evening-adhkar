@@ -1,6 +1,6 @@
 "use client";
 
-import { Github } from "lucide-react";
+import { Github, Globe } from "lucide-react";
 import { useApp } from "@/contexts/AppContext";
 
 const Footer = () => {
@@ -14,15 +14,26 @@ const Footer = () => {
           ? "قاعدة بيانات مفتوحة المصدر لأذكار الصباح والمساء"
           : "An open-source database for Morning & Evening Adhkar."}
       </p>
-      <a
-        href="https://github.com/Seen-Arabic/Morning-And-Evening-Adhkar-DB"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-primary hover:text-primary/80 inline-flex cursor-pointer items-center gap-1 hover:underline"
-      >
-        <Github className="h-4 w-4" />
-        {isAr ? "مستودع جيتهاب" : "GitHub Repository"}
-      </a>
+      <div className="flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">
+        <a
+          href="https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:text-primary/80 inline-flex cursor-pointer items-center gap-1 hover:underline"
+        >
+          <Github className="h-4 w-4" />
+          {isAr ? "مستودع جيتهاب" : "GitHub Repository"}
+        </a>
+        <a
+          href="https://abdelrahmanbayoumi.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:text-primary/80 inline-flex cursor-pointer items-center gap-1 hover:underline"
+        >
+          <Globe className="h-4 w-4" />
+          {isAr ? "المطور" : "Developer"}
+        </a>
+      </div>
       <p className="mt-1 text-xs opacity-60">MIT License</p>
     </footer>
   );
