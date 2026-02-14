@@ -13,7 +13,7 @@ const ProgressBar = ({ completed, total }: Props) => {
   const isAr = language === "ar";
 
   return (
-    <div className="mb-4">
+    <div className="mb-4" dir="auto">
       <div className="text-muted-foreground mb-1 flex items-center justify-between text-sm">
         <span>{isAr ? "التقدم" : "Progress"}</span>
         <span>
