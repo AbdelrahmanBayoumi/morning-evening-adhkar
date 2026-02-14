@@ -8,7 +8,7 @@
 <p align=center><strong>تطبيق أذكار الصباح والمساء</strong></p>
 
 <div align=center>
-    <img src="public/images/og-image.jpg" alt="Adhkar Image" width="400">
+    <img src="public/images/og-image.jpg" alt="Adhkar Image">
 </div>
 
 <p align=center><strong>
@@ -16,6 +16,23 @@
 </strong></p><br>
 
 ✨ ألا بذكر الله تطمئن القلوب.
+
+## 📸 لقطات الشاشة
+
+<table>
+  <tr>
+    <td><img src="public/images/screenshot-desktop-1.png" alt="لقطة شاشة لسطح المكتب 1" /></td>
+    <td><img src="public/images/screenshot-desktop-2.png" alt="لقطة شاشة لسطح المكتب 2" /></td>
+    <td><img src="public/images/screenshot-desktop-3.png" alt="لقطة شاشة لسطح المكتب 3" /></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><img src="public/images/screenshot-iphone-1.png" alt="لقطة شاشة للجوال 1" width="300" /></td>
+    <td><img src="public/images/screenshot-iphone-2.png" alt="لقطة شاشة للجوال 2" width="300" /></td>
+    <td><img src="public/images/screenshot-iphone-3.png" alt="لقطة شاشة للجوال 3" width="300" /></td>
+  </tr>
+</table>
 
 ## 🚀 البدء
 
