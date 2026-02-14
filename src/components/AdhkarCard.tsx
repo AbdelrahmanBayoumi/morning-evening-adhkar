@@ -75,7 +75,7 @@ const AdhkarCard = ({
           <button
             onClick={() => setFadlOpen(!fadlOpen)}
             dir="auto"
-            className="text-muted-foreground flex w-full items-center justify-between text-sm font-medium"
+            className="text-muted-foreground hover:text-foreground flex w-full cursor-pointer items-center justify-between text-sm font-medium transition-colors"
           >
             <span className={cn(isAr && "font-arabic")}>
               {isAr ? "الفضل" : "Virtue"}
@@ -107,7 +107,7 @@ const AdhkarCard = ({
           <button
             onClick={() => setSourceOpen(!sourceOpen)}
             dir="auto"
-            className="text-muted-foreground flex w-full items-center justify-between text-sm font-medium"
+            className="text-muted-foreground hover:text-foreground flex w-full cursor-pointer items-center justify-between text-sm font-medium transition-colors"
           >
             <span className={cn(isAr && "font-arabic")}>
               {isAr ? "المصدر" : "Source"}
@@ -143,7 +143,7 @@ const AdhkarCard = ({
             "flex h-12 min-w-[80px] items-center justify-center gap-2 rounded-lg px-4 text-sm font-bold transition-all",
             completed
               ? "bg-primary text-primary-foreground cursor-default"
-              : "bg-primary text-primary-foreground active:scale-95",
+              : "bg-primary text-primary-foreground cursor-pointer active:scale-95",
           )}
         >
           {completed ? (
@@ -164,7 +164,7 @@ const AdhkarCard = ({
         {completed && (
           <button
             onClick={onReset}
-            className="text-muted-foreground hover:bg-accent hover:text-accent-foreground rounded-lg p-2"
+            className="text-muted-foreground hover:bg-accent hover:text-accent-foreground cursor-pointer rounded-lg p-2 transition-colors"
             title={isAr ? "إعادة" : "Reset"}
           >
             <RotateCcw className="h-4 w-4" />
@@ -175,7 +175,7 @@ const AdhkarCard = ({
         {item.audio && (
           <button
             onClick={() => playAudio(item.audio)}
-            className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-lg p-2.5"
+            className="bg-secondary text-secondary-foreground hover:bg-secondary/80 cursor-pointer rounded-lg p-2.5 transition-colors"
           >
             {isPlaying ? (
               <Pause className="h-5 w-5" />

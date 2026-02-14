@@ -18,7 +18,7 @@ const Footer = () => {
         href="https://github.com/Seen-Arabic/Morning-And-Evening-Adhkar-DB"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-primary inline-flex items-center gap-1 hover:underline"
+        className="text-primary hover:text-primary/80 inline-flex cursor-pointer items-center gap-1 hover:underline"
       >
         <Github className="h-4 w-4" />
         {isAr ? "مستودع جيتهاب" : "GitHub Repository"}
