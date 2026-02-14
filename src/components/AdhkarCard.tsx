@@ -48,9 +48,17 @@ const AdhkarCard = ({
 
       {/* Content Area - Clickable */}
       <div
+        role="button"
+        tabIndex={!completed ? 0 : -1}
         onClick={!completed ? onDecrement : undefined}
+        onKeyDown={(e) => {
+          if (!completed && (e.key === "Enter" || e.key === " ")) {
+            e.preventDefault();
+            onDecrement();
+          }
+        }}
         className={cn(
-          "transition-opacity",
+          "focus-visible:ring-ring rounded-lg transition-opacity focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none",
           !completed && "cursor-pointer active:opacity-80",
         )}
       >

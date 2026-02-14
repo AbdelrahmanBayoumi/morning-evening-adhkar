@@ -1,6 +1,22 @@
 import type { Metadata } from "next";
+import { Inter, Amiri } from "next/font/google"; // Optimized fonts
 import "./globals.css";
 import { AppProvider } from "@/contexts/AppContext";
+
+// Load Inter (Latin subset)
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+// Load Amiri (Arabic subset)
+const amiri = Amiri({
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  variable: "--font-amiri",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://morning-evening-adhkar.web.app"),
@@ -101,7 +117,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" suppressHydrationWarning>
-      <body className="antialiased">
+      <body className={`${inter.variable} ${amiri.variable} antialiased`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
