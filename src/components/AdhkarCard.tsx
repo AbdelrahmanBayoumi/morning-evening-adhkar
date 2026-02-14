@@ -23,6 +23,7 @@ const AdhkarCard = ({
 }: Props) => {
   const { language, playAudio, playingUrl } = useApp();
   const [sourceOpen, setSourceOpen] = useState(false);
+  const [fadlOpen, setFadlOpen] = useState(false);
   const isAr = language === "ar";
   const completed = remainingCount <= 0;
   const isPlaying = playingUrl === item.audio;
@@ -68,12 +69,35 @@ const AdhkarCard = ({
         </p>
       )}
 
-      {/* Fadl */}
+      {/* Fadl accordion */}
       {item.fadl && (
-        <div className="border-border text-muted-foreground mb-4 border-t pt-3 text-sm leading-relaxed">
-          <p className={cn(isAr && "font-arabic")} dir={isAr ? "rtl" : "ltr"}>
-            {item.fadl}
-          </p>
+        <div className="border-border mb-3 border-t pt-3">
+          <button
+            onClick={() => setFadlOpen(!fadlOpen)}
+            dir="auto"
+            className="text-muted-foreground flex w-full items-center justify-between text-sm font-medium"
+          >
+            <span className={cn(isAr && "font-arabic")}>
+              {isAr ? "الفضل" : "Virtue"}
+            </span>
+            <ChevronDown
+              className={cn(
+                "h-4 w-4 transition-transform",
+                fadlOpen && "rotate-180",
+              )}
+            />
+          </button>
+          {fadlOpen && (
+            <p
+              className={cn(
+                "text-muted-foreground mt-2 text-sm leading-relaxed",
+                isAr && "font-arabic",
+              )}
+              dir={isAr ? "rtl" : "ltr"}
+            >
+              {item.fadl}
+            </p>
+          )}
         </div>
       )}
 
