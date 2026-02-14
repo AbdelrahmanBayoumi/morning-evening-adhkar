@@ -46,28 +46,37 @@ const AdhkarCard = ({
         {index + 1}
       </span>
 
-      {/* Arabic content */}
-      <p
-        className="font-arabic text-foreground mb-4 text-xl leading-[2.2] md:text-2xl"
-        dir="rtl"
+      {/* Content Area - Clickable */}
+      <div
+        onClick={!completed ? onDecrement : undefined}
+        className={cn(
+          "transition-opacity",
+          !completed && "cursor-pointer active:opacity-80",
+        )}
       >
-        {item.content}
-      </p>
-
-      {/* English details */}
-      {!isAr && item.transliteration && (
-        <p className="text-muted-foreground mb-2 text-sm italic" dir="ltr">
-          {item.transliteration}
-        </p>
-      )}
-      {!isAr && item.translation && (
+        {/* Arabic content */}
         <p
-          className="text-foreground/80 mb-4 text-sm leading-relaxed"
-          dir="ltr"
+          className="font-arabic text-foreground mb-4 text-xl leading-[2.2] md:text-2xl"
+          dir="rtl"
         >
-          {item.translation}
+          {item.content}
         </p>
-      )}
+
+        {/* English details */}
+        {!isAr && item.transliteration && (
+          <p className="text-muted-foreground mb-2 text-sm italic" dir="ltr">
+            {item.transliteration}
+          </p>
+        )}
+        {!isAr && item.translation && (
+          <p
+            className="text-foreground/80 mb-4 text-sm leading-relaxed"
+            dir="ltr"
+          >
+            {item.translation}
+          </p>
+        )}
+      </div>
 
       {/* Fadl accordion */}
       {item.fadl && (
