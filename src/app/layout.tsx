@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "أذكار الصباح والمساء - Morning & Evening Adhkar",
     description:
       "Morning & Evening Adhkar PWA - Your daily guide for remembrance",
-    siteName: "Morning & Evening Adhkar",
+    siteName: "أذكار الصباح والمساء",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -104,8 +104,8 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Morning & Evening Adhkar",
-  alternateName: "أذكار الصباح والمساء",
+  name: "أذكار الصباح والمساء",
+  alternateName: "Morning & Evening Adhkar",
   url: "https://morning-evening-adhkar.web.app/",
   sameAs: "https://github.com/AbdelrahmanBayoumi/morning-evening-adhkar",
 };
